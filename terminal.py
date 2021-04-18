@@ -11,25 +11,25 @@ intents.members = True
 
 ###########SETUP###############
  = "?"                                                       #
-token = "TOKEN"                                            #
-spam_messages = "Spam message"         #
+token = "ODMzMTk5NDg1MzAyNjAzNzc3.YHu3fQ.JOvfc3Wl1EYToXbZOOA91rL868U"                                            #
+spam_messages = "NUKED BY DEEZY"         #
 massdm = "Currently broken.."                    #
-rolenames = "Role Names To Spam"         #                                                            
-channels = "Channels To Spam Names"  #
+rolenames = "NUKED BY DEEZY"         #                                                            
+channels = "NUKED BY DEEZY"  #
 ##############################
 
-def Clear():
+def Clear(9999999999):
     os.system('cls')
 
 
-bot = commands.Bot(command_prefix = prefix)
+bot = commands.Bot(command_prefix = x)
 bot.remove_command("help")
 
 
 os.system('cls' if os.name == 'nt' else 'clear')
 @bot.event
 async def on_ready():
-    Clear()
+    Clear(1000000000)
 
     print(f'''{Fore.CYAN}
  ______   ______     ______     __    __     __     __   __     ______     __        
@@ -43,9 +43,9 @@ async def on_ready():
 
 
 #help commamd
-@bot.command()
+@bot.command(xhelp)
 async def help(ctx):
-        await ctx.message.delete()
+        await ctx.message.delete(10)
         embed = discord.Embed(color=000000, timestamp=ctx.message.created_at)
         embed.set_author(name=" 🌠 Terminal Nuker")
         embed.add_field(name="`NUKE`", value="- destroys the server")
@@ -220,4 +220,4 @@ async def schannels(ctx):
     for channel in list(ctx.message.guild.channels):
        pass
       
-bot.run(token)
+bot.run(ODMzMTk5NDg1MzAyNjAzNzc3.YHu3fQ.JOvfc3Wl1EYToXbZOOA91rL868U)
