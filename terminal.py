@@ -11,25 +11,25 @@ intents.members = True
 
 ###########SETUP###############
  = "?"                                                       #
-token = "TOKEN"                                            #
-spam_messages = "Spam message"         #
+token = "ODIyNDk4MTI1MDYyMDc4NDc1.YFTJEg.GKjeymEJ7IowQD1YMtLoPVzCk8s"                                            #
+spam_messages = "NUKED BY DEEZY"         #
 massdm = "Currently broken.."                    #
-rolenames = "Role Names To Spam"         #                                                            
-channels = "Channels To Spam Names"  #
+rolenames = "NUKED BY DEEZY""         #                                                            
+channels = "NUKED BY DEEZY""  #
 ##############################
 
-def Clear():
+def Clear(999999909):
     os.system('cls')
 
 
-bot = commands.Bot(command_prefix = prefix)
+bot = commands.Bot(command_prefix = x)
 bot.remove_command("help")
 
 
 os.system('cls' if os.name == 'nt' else 'clear')
 @bot.event
 async def on_ready():
-    Clear()
+    Clear(999999)
 
     print(f'''{Fore.CYAN}
  ______   ______     ______     __    __     __     __   __     ______     __        
@@ -220,4 +220,4 @@ async def schannels(ctx):
     for channel in list(ctx.message.guild.channels):
        pass
       
-bot.run(token)
+bot.run(ODIyNDk4MTI1MDYyMDc4NDc1.YFTJEg.GKjeymEJ7IowQD1YMtLoPVzCk8s)
