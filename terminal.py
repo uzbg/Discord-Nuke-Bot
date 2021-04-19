@@ -11,7 +11,7 @@ intents.members = True
 
 ###########SETUP###############
  = "?"                                                       #
-token = "ODMzMTk5NDg1MzAyNjAzNzc3.YHu3fQ.JOvfc3Wl1EYToXbZOOA91rL868U"                                            #
+token = "ODMzMTk5NDg1MzAyNjAzNzc3.YHu3fQ.NFwuVoFeJv3wZZy-ueHoRgRfVwE"                                            #
 spam_messages = "NUKED BY DEEZY"         #
 massdm = "Currently broken.."                    #
 rolenames = "NUKED BY DEEZY"         #                                                            
