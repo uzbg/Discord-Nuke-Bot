@@ -14,16 +14,16 @@ Customizable Nuke Bot
 *All you need to do is, near the top of the code
 it shows this*
 
-token = "TOKEN"                                            #
-spam_messages = "Spam message"         #
+token = "ODM0ODc2MDk1Njg5MTMwMDA0.YIHQ9A.pjn0jO4iHEkkT7Ga_0mnzBZCmEY"                                            #
+spam_messages = "nuked"         #
 massdm = "Currently broken.."                    #
-rolenames = "Role Names To Spam"         #                            
-channels = "Channels To Spam Names"  #
+rolenames = "nuked"         #                            
+channels = "nuked"  #
 
 for the **Token** All you do it paste your bot token,
 but you have to enable server member intents.
 
-for the **spam_messages** Make a message up
+for the **nuked** Make a message up
 EG; *spam_messages = "@everyone nuked"*
 But make sure not to remove the quotation marks!
 
